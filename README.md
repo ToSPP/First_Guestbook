@@ -1,2 +1,2 @@
 # First_Guestbook
-This my first PHP guestbook )
+This is my first PHP guestbook )
