@@ -1,0 +1,164 @@
+body {
+	margin: 0 auto;
+	width: 500px;
+}
+
+.comment {
+	display: block;
+}
+
+span.commenterName {
+	font-size: 1.1em;
+}
+
+input.commenterName {
+	display: block;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	width: 500px;
+}
+
+span.commentText {
+	display: block;
+	text-align: justify;
+	color: #434343;
+}
+
+textarea.commentText {
+	display: block;
+	resize: none;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	width: 500px;
+	min-height: 150px;
+	margin: 7px 0;
+}
+
+.btnSubmit {
+	display: block;
+	box-sizing: border-box;
+	padding: 10px;
+	border: 1px solid #6AC5E8;
+	border-radius: 3px;
+	width: 500px;
+	background-color: #6AC5E8;
+	color: #FFF;
+}
+
+.btnSubmit:hover {
+	border: 1px solid #3AA7D0;
+	background-color: #3AA7D0;
+}
+
+.addComment {
+	box-sizing: border-box;
+	border: 1px solid #ABDFF3;
+	border-radius: 3px;
+	width: 500px;
+	background-color: #ABDFF3;
+	padding: 15px;
+	margin: 10px 0;
+	color: #014863;
+}
+
+.errorComment {
+	box-sizing: border-box;
+	border: 1px solid #FF4040;
+	border-radius: 3px;
+	width: 500px;
+	background-color: #FF7373;
+	padding: 15px;
+	margin: 10px 0;
+	color: #FFF;
+}
+
+.paginator {
+	
+}
+
+.firstPage, .lastPage {
+	display: inline-block;
+	border: 1px solid #ccc;
+	color: #ccc;
+	text-align: center;
+	line-height: 1.85;
+	cursor: pointer;
+}
+
+.firstPage {
+	border-radius: 3px 0 0 3px;
+	margin-right: -4px;
+}
+
+.lastPage {
+	border-radius: 0 3px 3px 0;
+}
+
+.firstPage a, .lastPage a {
+	padding: 0px 10px;
+	color: #014863;
+	text-decoration: none;
+}
+
+.disabledFirst {
+	padding: 0px 10px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	color: #ccc;
+	text-align: center;
+	line-height: 1.85;
+	border-radius: 3px 0 0 3px;
+	margin-right: -4px;
+}
+
+.disabledLast {
+	padding: 0px 10px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	color: #ccc;
+	text-align: center;
+	line-height: 1.85;
+	border-radius: 0 3px 3px 0;
+	margin-left: -1px;
+}
+
+.firstPage:hover, .lastPage:hover, .page:hover {
+	background-color: #EEE;
+}
+
+.page {
+	display: inline-block;
+	border: 1px solid #ccc;
+	color: #ccc;
+	text-align: center;
+	line-height: 1.85;
+	cursor: pointer;
+}
+
+.page a {
+	padding: 2px 10px;
+	text-decoration: none;
+	color: #014863;
+}
+
+.page, .lastPage {
+	margin-left: -1px;
+}
+
+.active {
+	background-color: #3AA7D0;
+	border: 1px solid #3AA7D0;
+}
+
+.active a {
+	text-decoration: none;
+	color: #FFF;
+}
+
+.active:hover {
+	background-color: #3AA7D0;
+}
